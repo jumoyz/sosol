@@ -1,6 +1,74 @@
-SOSOL
-A collaborative financial platform for managing Sol/Sabotay (Collaborative savings or crowdsavings), loans, crowdfunding, wallets, and mobile money integration (MonCash, NatCash).
+# SOSOL - Collaborative Financial Platform
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+SOSOL is a collaborative financial platform for managing Sol/Sabotay (Collaborative savings or crowdsavings), loans, crowdfunding, wallets, and mobile money integration. It aims to provide a secure and user-friendly environment for community-based financial activities.
+
+## About The Project
+
+This platform is designed to empower communities by providing digital tools for traditional financial practices. Whether you are part of a savings group (Sol/Sabotay), looking to crowdfund a project, or in need of a micro-loan, SOSOL provides the necessary features to manage your finances collaboratively and transparently.
+
+### Key Features
+
+*   **Wallet Management:** Securely manage your funds with a personal digital wallet. Recharge and withdraw funds seamlessly.
+*   **Collaborative Savings (Sol/Sabotay):** Create or join savings groups. Automate contributions and payouts.
+*   **Loan Center:** Request loans from the community or offer loans to others.
+*   **Crowdfunding:** Create and manage campaigns to raise funds for your projects.
+*   **Mobile Money Integration:** Integrated with popular mobile money services like MonCash and NatCash for easy transactions.
+*   **User-friendly Dashboard:** A comprehensive dashboard to view all your financial activities at a glance.
+*   **Admin Panel:** A powerful admin dashboard to manage users, approvals, and platform settings.
+
+## Built With
+
+*   [PHP](https://www.php.net/)
+*   [MySQL](https://www.mysql.com/)
+*   [Bootstrap](https://getbootstrap.com/)
+*   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have a local development environment with the following installed:
+*   A web server (e.g., Apache, Nginx)
+*   PHP 7.4 or higher
+*   MySQL or MariaDB
+
+### Installation
+
+1.  **Clone the repo**
+    ```sh
+    git clone https://github.com/your_username/SOSOL.git
+    ```
+2.  **Database Setup**
+    *   Create a new database in your MySQL/MariaDB server.
+    *   Import the database schema from `database/sosol_schema.sql`.
+    *   (Optional) Seed the database with initial data by importing `database/seed_data.sql`.
+
+3.  **Configuration**
+    *   Navigate to the project's root directory.
+    *   Create a `.env` file. You can copy `.env.example` if it exists, or create it from scratch.
+    *   Add the following environment variables to your `.env` file with your specific configuration:
+    ```dotenv
+    DB_HOST=localhost
+    DB_USER=your_db_user
+    DB_PASS=your_db_password
+    DB_NAME=your_db_name
+
+    APP_URL=http://localhost/SOSOL
+    ```
+
+4.  **Run the application**
+    *   Place the project folder in your web server's root directory (e.g., `htdocs/` for XAMPP, `www/` for WAMP).
+    *   Open your web browser and navigate to the `APP_URL` you set in your `.env` file.
+
+## Project Structure
+
+The project follows a modular structure to separate concerns and make it easy to maintain.
+
+```
 SoSol-WebApp/
 │
 ├── 📁 public/                    # Publicly accessible assets
@@ -90,3 +158,21 @@ SoSol-WebApp/
 ├── index.php                    # Main entry point
 ├── README.md
 └── LICENSE
+```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
