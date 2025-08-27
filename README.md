@@ -40,7 +40,7 @@ Make sure you have a local development environment with the following installed:
 
 1.  **Clone the repo**
     ```sh
-    git clone https://github.com/your_username/SOSOL.git
+    git clone https://github.com/jumoyz/SOSOL.git
     ```
 2.  **Database Setup**
     *   Create a new database in your MySQL/MariaDB server.
@@ -69,7 +69,7 @@ Make sure you have a local development environment with the following installed:
 The project follows a modular structure to separate concerns and make it easy to maintain.
 
 ```
-SoSol-WebApp/
+SOSOL/
 │
 ├── 📁 public/                    # Publicly accessible assets
 │   ├── 📁 css/
@@ -85,7 +85,7 @@ SoSol-WebApp/
 │
 ├── 📁 includes/                # Shared PHP files
 │   ├── config.php               # DB connection and App configuration
-│   ├── constants.php            # App specific constants
+│   ├── constants.php            # App-specific constants
 │   ├── header.php               # HTML head & top navbar
 │   ├── flash-messages.php       # Fash Messages
 │   ├── footer.php               # Footer content
@@ -162,9 +162,9 @@ SoSol-WebApp/
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. I would greatly appreciate any contributions you make.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would improve this, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1.  Fork the Project
