@@ -40,7 +40,7 @@ Make sure you have a local development environment with the following installed:
 
 1.  **Clone the repo**
     ```sh
-    git clone https://github.com/jumoyz/SOSOL.git
+    git clone https://github.com/jumoyz/sosol.git
     ```
 2.  **Database Setup**
     *   Create a new database in your MySQL/MariaDB server.
