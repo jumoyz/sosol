@@ -10,7 +10,7 @@ $pageTitle = "Create an Account";
                 <div class="text-center mb-4">
                     <img src="/public/images/sosol-logo.jpg" alt="SOSOL Logo" height="48" class="mb-3 rounded-circle shadow-sm">
                     <h3 class="fw-bold text-gradient mb-1 animate__animated animate__fadeInDown">Create an Account</h3>
-                    <p class="text-muted">Join the <span class="fw-bold text-primary">SoSol</span> community</p>
+                    <p class="text-muted">Join the <span class="fw-bold text-primary">SOSOL</span> community</p>
                 </div>
                 <form method="POST" action="actions/register.php" id="registerForm">
                     <!-- Full Name -->
