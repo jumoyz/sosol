@@ -23,7 +23,7 @@
             <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="mobileMenuLabel">
-                        <img src="http://sosol.local/webApp/v1/public/images/sosol-logo.jpg" alt="SOSOL Logo" height="30">
+                        <img src="<?= APP_URL ?>/public/images/sosol-logo.jpg" alt="SOSOL Logo" height="30">
                         <span class="ms-2 fw-bold text-primary">SOSOL</span>
                     </h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
