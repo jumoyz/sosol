@@ -100,7 +100,7 @@ function config($key, $default = null) {
 // Application constants
 // These can be overridden by environment variables or config files
 define('APP_NAME', config('APP_NAME', 'SOSOL'));
-define('APP_URL', config('APP_URL', 'http://sosol.local'));
+define('APP_URL', config('APP_URL', 'http://sosol.tmsht.com'));
 define('APP_VERSION', config('APP_VERSION', '1.0.0'));
 define('APP_ENV', config('APP_ENV', 'production'));                             
 define('APP_DEBUG', config('APP_DEBUG', 'false'));
